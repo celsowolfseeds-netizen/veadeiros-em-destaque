@@ -76,6 +76,8 @@ html,body{overflow-x:clip}
 .ridge-front{fill:var(--navy-900);stroke:var(--gold);stroke-width:1.6;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
 .hero h1{font-size:clamp(1.9rem,6.2vw,3.1rem);color:var(--ink);margin-block:14px 18px;text-shadow:0 2px 22px rgba(7,16,31,.85),0 1px 3px rgba(7,16,31,.7)}
 .hero h1 em{font-style:normal;color:var(--gold)}
+/* Modo de alto contraste do Windows: sem isso o navegador põe uma caixa preta atrás de cada trecho de texto sobre a foto. Aqui as cores já foram conferidas. */
+@media (forced-colors:active){.cover,.cover *{forced-color-adjust:none}}
 .hero .eyebrow{color:var(--gold-soft);text-shadow:0 1px 10px rgba(7,16,31,.95),0 0 3px rgba(7,16,31,.8)}
 .lead{color:#c9d1e2;text-shadow:0 1px 12px rgba(7,16,31,.8);font-size:1.1rem;max-width:34em}
 
