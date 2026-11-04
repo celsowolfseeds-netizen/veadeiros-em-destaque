@@ -74,9 +74,9 @@ html,body{overflow-x:clip}
 .ridge{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:clamp(90px,15vw,190px);z-index:-1;display:block}
 .ridge-back{fill:var(--navy-800);opacity:.9}
 .ridge-front{fill:var(--navy-900);stroke:var(--gold);stroke-width:1.6;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
-.hero h1{font-size:clamp(1.9rem,6.2vw,3.1rem);color:var(--ink);margin-block:14px 18px;text-shadow:0 2px 24px rgba(7,16,31,.7)}
+.hero h1{font-size:clamp(1.9rem,6.2vw,3.1rem);color:var(--ink);margin-block:14px 18px;text-shadow:0 2px 22px rgba(7,16,31,.85),0 1px 3px rgba(7,16,31,.7)}
 .hero h1 em{font-style:normal;color:var(--gold)}
-.hero .eyebrow{text-shadow:0 1px 10px rgba(7,16,31,.95),0 0 3px rgba(7,16,31,.8)}
+.hero .eyebrow{color:var(--gold-soft);text-shadow:0 1px 10px rgba(7,16,31,.95),0 0 3px rgba(7,16,31,.8)}
 .lead{color:#c9d1e2;text-shadow:0 1px 12px rgba(7,16,31,.8);font-size:1.1rem;max-width:34em}
 
 /* para quem */
@@ -147,7 +147,7 @@ footer b{font-family:var(--font-display);color:var(--gold-soft);letter-spacing:.
   body{padding-bottom:0}
   .dock{display:none}
   .cover-img{height:100%;object-position:50% 40%}
-  .cover-shade{background:linear-gradient(90deg,var(--navy-900) 0%,rgba(7,16,31,.92) 36%,rgba(7,16,31,.4) 62%,rgba(7,16,31,.1) 100%),linear-gradient(180deg,rgba(7,16,31,.5) 0%,transparent 22%,transparent 72%,var(--navy-900) 100%)}
+  .cover-shade{background:radial-gradient(ellipse 58% 90% at 20% 45%,rgba(7,16,31,.7) 0%,rgba(7,16,31,.5) 50%,transparent 100%),linear-gradient(180deg,rgba(7,16,31,.5) 0%,rgba(7,16,31,.18) 24%,transparent 40%,transparent 78%,var(--navy-900) 100%)}
   .hero{align-items:center}
   .hero>div{max-width:34em}
   .who{grid-template-columns:repeat(3,1fr);gap:28px}
